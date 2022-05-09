@@ -14,7 +14,7 @@ size = 4
 webcam = cv2.VideoCapture(0) #Use camera 0
 
 # We load the xml file
-classifier = cv2.CascadeClassifier(r'C:\Users\Gift\Downloads\files\haarcascade_frontalface_default.xml')
+classifier = cv2.CascadeClassifier(r'\haarcascade_frontalface_default.xml')
 
 while True:
     (rval, im) = webcam.read()
